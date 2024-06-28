@@ -4,16 +4,26 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin: 0;
 }
 
-.header {
+header {
   display: flex;
   background-color: #1f2937;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .logo {
   color: #f9faf8;
   font-size: 24px;
+}
+
+.link-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 20px;
 }
 
 h2 {
@@ -23,6 +33,7 @@ h2 {
 
 .awesome-section {
   background-color: #1f2937;
+  padding: 150px;
 }
 
 .awesome {
@@ -39,21 +50,43 @@ h2 {
 .awesome-button {
   background-color: #3882f6;
   color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+}
+
+.information-section {
+  padding-bottom: 130px;
 }
 
 .information {
   font-size: 36px;
   font-weight: 800;
   color: #1f2937;
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.box {
+  border: 4px solid #3882f6;
+  border-radius: 15px;
+  width: 160px;
+  height: 160px;
 }
 
 .some-subtext {
   font-size: 18px;
-  color: #e5e7eb;
+  color: #1f2937;
 }
 
 .quote-section {
   background-color: #e5e7eb;
+  padding: 60px 300px 60px 300px;
 }
 
 .quote-text {
@@ -62,19 +95,42 @@ h2 {
   font-style: italic;
 }
 
+.attribution {
+  text-align: right;
+  color: #1f2937;
+  font-weight: 800;
+  font-size: 24px;
+}
+
 .call-section {
   background-color: #3882f6;
+  display: flex;
+  margin: 100px 200px;
+  padding: 20px 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
 }
 
 .call-heading {
   color: #f9faf8;
 }
 
+.our-product {
+  color: #e5e7eb;
+}
+
 .call-section-button {
   background-color: #3882f6;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  padding: 5px 20px;
 }
 
 footer {
   background-color: #1f2937;
   color: #e5e7eb;
+  text-align: center;
+  padding: 35px;
 }
